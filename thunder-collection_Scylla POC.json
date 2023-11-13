@@ -1,0 +1,89 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Scylla POC",
+    "dateExported": "2023-11-13T13:23:17.640Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "2beb969b-4657-4aa4-98ab-34eaa11d1c7e",
+            "colId": "33e5f91f-1248-4290-b234-34e473980775",
+            "containerId": "",
+            "name": "Create User",
+            "url": "http://localhost:8080/api/v1/user",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2023-11-13T12:43:07.964Z",
+            "modified": "2023-11-13T12:43:07.964Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"firstname\":\"Azar\",\n  \"lastname\": \"M\",\n  \"password\":\"djbjasbxa\",\n  \"email\":\"dhjsa@test.com\",\n  \"phone\":\"asvhaxd\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "82eefd66-d577-489b-ae04-b55d1e8a26ab",
+            "colId": "33e5f91f-1248-4290-b234-34e473980775",
+            "containerId": "",
+            "name": "Update User",
+            "url": "http://localhost:8080/api/v1/user/334f6c85-244d-47c0-bf5e-c9e470b11618",
+            "method": "PUT",
+            "sortNum": 15000,
+            "created": "2023-11-13T13:08:28.190Z",
+            "modified": "2023-11-13T13:21:04.880Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"id\":\"334f6c85-244d-47c0-bf5e-c9e470b11618\",\n  \"firstname\":\"M\",\n  \"lastname\": \"Azar\",\n  \"password\":\"djbjasbxa\",\n  \"email\":\"dhjsa@test.com\",\n  \"phone\":\"asvhaxd\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "eab99f4f-9b78-4b6d-b0d6-6784beb4143a",
+            "colId": "33e5f91f-1248-4290-b234-34e473980775",
+            "containerId": "",
+            "name": "Get Users All",
+            "url": "http://localhost:8080/api/v1/users",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2023-11-13T13:00:05.638Z",
+            "modified": "2023-11-13T13:00:21.451Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "cf002742-4a73-4e5d-8d37-ac194f6f711c",
+            "colId": "33e5f91f-1248-4290-b234-34e473980775",
+            "containerId": "",
+            "name": "Get User By Id",
+            "url": "http://localhost:8080/api/v1/user/334f6c85-244d-47c0-bf5e-c9e470b11618",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2023-11-13T13:22:21.479Z",
+            "modified": "2023-11-13T13:22:29.258Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "c269c3ac-a577-41d3-aae1-06cc131dd874",
+            "colId": "33e5f91f-1248-4290-b234-34e473980775",
+            "containerId": "",
+            "name": "Delete User By Id ",
+            "url": "http://localhost:8080/api/v1/user/334f6c85-244d-47c0-bf5e-c9e470b11618",
+            "method": "DELETE",
+            "sortNum": 50000,
+            "created": "2023-11-13T13:22:41.333Z",
+            "modified": "2023-11-13T13:22:58.982Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}
